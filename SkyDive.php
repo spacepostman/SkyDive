@@ -237,8 +237,9 @@ try {
     echo "An error occurred: " . $e->getMessage();
 }
 $theyear = date("Y");
+$textout1  = preg_replace('@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@', '<a href="$1" style="color:blue;">$1</a>', $postTextWithLinkAndTags);
 ///Convert linebreaks for output
-$textout = str_replace("\n", "<br />", $postTextWithLinkAndTags);
+$textout = str_replace("\n", "<br />", $textout1);
 echo "</span></p></div><div class=\"cordcontent\" style=\" max-width:100%; background:#ffffff; border-color:#000000;\"><p style=\"font-size:24px; color:#000000; font-weight:bold; font-family:Arial;\">Content posted:</p>
 <p style=\"font-size:16px; color:#000000; font-weight:normal; font-family:verdana;\">$textout<br><br><img src=\"$thumb1\" style=\"magin:4px;border:2px;\"></p>
 </div>    <div class=\"cordcontent\" style=\" max-width:100%; background:#cc0000; border-color:#000000;\">
