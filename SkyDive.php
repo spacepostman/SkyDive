@@ -9,14 +9,13 @@
 //// SKYDIVE - PHP based AutoPoster for the BlueSky Social Network
 /// (C) Copyright Spacepostman - January 2025 ///////////////////
 /// Support: https://github.com/spacepostman?tab=repositories
-/// Feedback: boydskintrade@gmail.com
 
 
 //// Configure your custom credentials for Bluesky below
 
-$handle = 'your-handle.bsky.social'; 
+$handle = 'ladslist.bsky.social'; 
 /// This should be your BlueSky handle
-$password = 'app-password'; 
+$password = 'n5y3-y47h-expo-ooe4'; 
 /// You can generate an app-specifc password here: https://bsky.app/settings/privacy-and-security
 
 $text = "Custom text for the caption in the post.\n\n
@@ -238,5 +237,13 @@ try {
     echo "An error occurred: " . $e->getMessage();
 }
 $theyear = date("Y");
-echo "</span></p></div><span style=\"font-size:16px; color:#ffcc00; font-weight:bold; font-family:Verdana;\"> Support: #SkyDive by Spacepostman <a href=\"https://github.com/spacepostman?tab=repositories\">https://github.com/spacepostman?tab=repositories</a><br></span><span style=\"font-size:14px; color:#cccccc; font-weight:normal; font-family:Verdana;\">&copy Copyright $theyear BoydBoss - boydskintrade@gmail.com</div>";
+echo "</span></p></div><div class=\"cordcontent\" style=\" max-width:100%; background:#ffffff; border-color:#000000;\"><p style=\"font-size:24px; color:#000000; font-weight:bold; font-family:Arial;\">Content posted:</p>
+<p style=\"font-size:16px; color:#000000; font-weight:normal; font-family:verdana;\">$postTextWithLinkAndTags<br><br><img src=\"$thumb1\" style=\"magin:4px;border:2px;\"></p>
+</div>    <div class=\"cordcontent\" style=\" max-width:100%; background:#cc0000; border-color:#000000;\">
+<p style=\"font-size:24px; color:#000000; font-weight:bold; font-family:Arial;\"> Skydive BlueSky AutoPoster</B><br>
+<span style=\"font-size:18px; color:#cc0000; font-weight:normal; font-family:Verdana;\"></div><span style=\"font-size:16px; color:#ffcc00; font-weight:bold; font-family:Verdana;\">
+ Support: #SkyDive by Spacepostman <a href=\"https://github.com/spacepostman?tab=repositories\">
+ https://github.com/spacepostman?tab=repositories</a><br></span>
+ <span style=\"font-size:14px; color:#cccccc; font-weight:normal; font-family:Verdana;\">
+ &copy Copyright $theyear BoydBoss - boydskintrade@gmail.com</div>";
 ?>
