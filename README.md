@@ -1,6 +1,7 @@
 # SkyDive
  PHP based AutoPoster for the BlueSky Social Network
- (post text, links, hashtags and an image simply)
+ (post text, links, hashtags and an image simply)![ascii-text-art](https://github.com/user-attachments/assets/7a87fad1-a1c5-4364-9a93-28f1e2003281)
+
 
   _|_|_|  _|    _|  _|      _|  _|_|_|    _|_|_|  _|      _|  _|_|_|_| 
 _|        _|  _|      _|  _|    _|    _|    _|    _|      _|  _|       
