@@ -1,13 +1,9 @@
 # SkyDive
  PHP based AutoPoster for the BlueSky Social Network
- (post text, links, hashtags and an image simply)![ascii-text-art](https://github.com/user-attachments/assets/7a87fad1-a1c5-4364-9a93-28f1e2003281)
+ (post text, links, hashtags and an image simply)
 
+![ascii-text-art__1_-removebg-preview](https://github.com/user-attachments/assets/713b1fe9-551e-4c96-bced-cf500831eb23)
 
-  _|_|_|  _|    _|  _|      _|  _|_|_|    _|_|_|  _|      _|  _|_|_|_| 
-_|        _|  _|      _|  _|    _|    _|    _|    _|      _|  _|       
-  _|_|    _|_|          _|      _|    _|    _|    _|      _|  _|_|_|   
-      _|  _|  _|        _|      _|    _|    _|      _|  _|    _|       
-_|_|_|    _|    _|      _|      _|_|_|    _|_|_|      _|      _|_|_|_| 
 
 //// SKYDIVE - PHP based AutoPoster for the BlueSky Social Network
 /// (C) Copyright Spacepostman - January 2025 ///////////////////
