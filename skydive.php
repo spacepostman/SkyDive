@@ -9,6 +9,7 @@
 //// SKYDIVE - PHP based AutoPoster for the BlueSky Social Network
 /// (C) Copyright Spacepostman - January 2025 ///////////////////
 /// Support: https://github.com/spacepostman?tab=repositories
+/// Feedback: boydskintrade@gmail.com
 
 
 //// Configure your custom credentials for Bluesky below
