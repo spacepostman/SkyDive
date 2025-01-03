@@ -16,7 +16,7 @@ Instructions:
 
 1. Update your BlueSky Credentials in the script.
 2. Add your own unique post data and image.
-3. Upload Skydive.php to your sever directory.
+3. Upload SkyDive.php to your sever directory.
 4. Created /uploads directory.
-5. Open Skydive.php in a webpage on your server.
+5. Open SkyDive.php in a webpage on your server.
 6. That's it - you can now post text, links, #hashtags & images to Bluesky.
