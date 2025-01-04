@@ -13,9 +13,9 @@
 
 //// Configure your custom credentials for Bluesky below
 
-$handle = 'ladslist.bsky.social'; 
+$handle = 'handle.bsky.social'; 
 /// This should be your BlueSky handle
-$password = 'n5y3-y47h-expo-ooe4'; 
+$password = 'appPassword'; 
 /// You can generate an app-specifc password here: https://bsky.app/settings/privacy-and-security
 
 $text = "Custom text for the caption in the post.\n\n
